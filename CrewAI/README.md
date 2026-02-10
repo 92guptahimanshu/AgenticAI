@@ -104,3 +104,65 @@ Researcher Agent searches the specified YouTube channel.
 Extracts relevant transcripts and insights.
 
 Writer Agent generates a structured blog post.
+
+How It Works
+
+User provides a topic.
+
+Researcher Agent searches the specified YouTube channel.
+
+Extracts relevant transcripts and insights.
+
+Writer Agent generates a structured blog post.
+
+Final output is printed or saved as markdown.
+
+🧠 Example Usage
+crew.kickoff(
+    inputs={
+        "topic": "Generative AI in Production"
+    }
+)
+
+📌 Features
+
+Multi-agent collaboration
+
+Memory-enabled agents
+
+YouTube content search
+
+Automatic transcript extraction
+
+Blog-style output generation
+
+Fully customizable prompts
+
+🔐 Environment Variables
+Variable	Description
+OPENAI_API_KEY	OpenAI API Key
+YOUTUBE_API_KEY	YouTube Data API Key (if required)
+📈 Future Improvements
+
+Add Streamlit UI
+
+Export blog to PDF
+
+Schedule automated weekly blog creation
+
+Integrate with Notion / Medium API
+
+Add SEO optimization agent
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+📄 License
+
+MIT License
+
+👨‍💻 Author
+
+Himanshu Gupta
+Senior Data Engineer | AI Builder | Generative AI Enthusiast
