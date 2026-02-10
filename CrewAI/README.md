@@ -68,7 +68,7 @@ Crew-AI/
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/crew-ai-youtube-blog.git
+git clone https://github.com/92guptahimanshu/AgenticAI/CrewAI.git
 cd crew-ai-youtube-blog
 
 2️⃣ Create Virtual Environment
